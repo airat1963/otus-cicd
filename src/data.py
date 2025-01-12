@@ -18,8 +18,8 @@ from config.variables import DATA_DIR
 
 
 # pylint: disable=no-member
-x=1
-print(x)
+# x=1
+# print(x)
 def load_data() -> Tuple[np.ndarray, np.ndarray, List[str], List[str]]:
     """
     Load the Iris dataset.
